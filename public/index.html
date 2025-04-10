@@ -299,7 +299,7 @@
     let currentRoomId = "";
 
     // Connect to the backend socket server
-    const socket = io("http://localhost:5000");
+    const socket = io();
 
     // Get access to the camera and microphone
     async function initMedia() {
